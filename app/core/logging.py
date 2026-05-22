@@ -1,7 +1,8 @@
 import inspect
 import logging
-from pathlib import Path
 from typing import Literal
+
+from app.core.config import LOGS_DIR
 
 LogLevel = int | Literal["DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"]
 
@@ -47,9 +48,7 @@ def setup_logger(
         logger.addHandler(console_handler)
 
     if log_file:
-        logs_dir = Path(__file__).resolve().parent.parent / "logs"
-        logs_dir.mkdir(parents=True, exist_ok=True)
-        log_path = logs_dir / log_file
+        log_path = LOGS_DIR / log_file
 
         file_handler = logging.FileHandler(log_path, mode="a", encoding="utf-8")
         file_handler.setFormatter(formatter)
