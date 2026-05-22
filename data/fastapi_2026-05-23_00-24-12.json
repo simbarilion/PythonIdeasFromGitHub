@@ -1,0 +1,1209 @@
+{
+    "query": "fastapi",
+    "repos_count": 200,
+    "total_stars": 557306,
+    "average_stars": 2786.53,
+    "top_repo": "fastapi",
+    "repos": [
+        {
+            "name": "fastapi",
+            "owner": "fastapi",
+            "stars": 98440,
+            "url": "https://github.com/fastapi/fastapi"
+        },
+        {
+            "name": "Hello-Python",
+            "owner": "mouredev",
+            "stars": 35715,
+            "url": "https://github.com/mouredev/Hello-Python"
+        },
+        {
+            "name": "serve",
+            "owner": "jina-ai",
+            "stars": 21868,
+            "url": "https://github.com/jina-ai/serve"
+        },
+        {
+            "name": "HivisionIDPhotos",
+            "owner": "Zeyi-Lin",
+            "stars": 21113,
+            "url": "https://github.com/Zeyi-Lin/HivisionIDPhotos"
+        },
+        {
+            "name": "Douyin_TikTok_Download_API",
+            "owner": "Evil0ctal",
+            "stars": 18007,
+            "url": "https://github.com/Evil0ctal/Douyin_TikTok_Download_API"
+        },
+        {
+            "name": "sqlmodel",
+            "owner": "fastapi",
+            "stars": 17970,
+            "url": "https://github.com/fastapi/sqlmodel"
+        },
+        {
+            "name": "SurfSense",
+            "owner": "MODSetter",
+            "stars": 14282,
+            "url": "https://github.com/MODSetter/SurfSense"
+        },
+        {
+            "name": "fastapi_mcp",
+            "owner": "tadata-org",
+            "stars": 11874,
+            "url": "https://github.com/tadata-org/fastapi_mcp"
+        },
+        {
+            "name": "XHS-Downloader",
+            "owner": "JoeanAmier",
+            "stars": 11248,
+            "url": "https://github.com/JoeanAmier/XHS-Downloader"
+        },
+        {
+            "name": "polar",
+            "owner": "polarsource",
+            "stars": 9863,
+            "url": "https://github.com/polarsource/polar"
+        },
+        {
+            "name": "pycaret",
+            "owner": "pycaret",
+            "stars": 9795,
+            "url": "https://github.com/pycaret/pycaret"
+        },
+        {
+            "name": "FastUI",
+            "owner": "pydantic",
+            "stars": 8970,
+            "url": "https://github.com/pydantic/FastUI"
+        },
+        {
+            "name": "FileCodeBox",
+            "owner": "vastsa",
+            "stars": 8292,
+            "url": "https://github.com/vastsa/FileCodeBox"
+        },
+        {
+            "name": "nonebot2",
+            "owner": "nonebot",
+            "stars": 7516,
+            "url": "https://github.com/nonebot/nonebot2"
+        },
+        {
+            "name": "fastapi-users",
+            "owner": "fastapi-users",
+            "stars": 6139,
+            "url": "https://github.com/fastapi-users/fastapi-users"
+        },
+        {
+            "name": "Yuxi",
+            "owner": "xerrors",
+            "stars": 5254,
+            "url": "https://github.com/xerrors/Yuxi"
+        },
+        {
+            "name": "grok2api",
+            "owner": "chenyme",
+            "stars": 4964,
+            "url": "https://github.com/chenyme/grok2api"
+        },
+        {
+            "name": "Kokoro-FastAPI",
+            "owner": "remsky",
+            "stars": 4871,
+            "url": "https://github.com/remsky/Kokoro-FastAPI"
+        },
+        {
+            "name": "strawberry",
+            "owner": "strawberry-graphql",
+            "stars": 4657,
+            "url": "https://github.com/strawberry-graphql/strawberry"
+        },
+        {
+            "name": "devpush",
+            "owner": "hunvreus",
+            "stars": 4655,
+            "url": "https://github.com/hunvreus/devpush"
+        },
+        {
+            "name": "dynaconf",
+            "owner": "dynaconf",
+            "stars": 4300,
+            "url": "https://github.com/dynaconf/dynaconf"
+        },
+        {
+            "name": "agent-service-toolkit",
+            "owner": "JoshuaC215",
+            "stars": 4281,
+            "url": "https://github.com/JoshuaC215/agent-service-toolkit"
+        },
+        {
+            "name": "logfire",
+            "owner": "pydantic",
+            "stars": 4259,
+            "url": "https://github.com/pydantic/logfire"
+        },
+        {
+            "name": "honcho",
+            "owner": "plastic-labs",
+            "stars": 3976,
+            "url": "https://github.com/plastic-labs/honcho"
+        },
+        {
+            "name": "datamodel-code-generator",
+            "owner": "koxudaxi",
+            "stars": 3906,
+            "url": "https://github.com/koxudaxi/datamodel-code-generator"
+        },
+        {
+            "name": "LitServe",
+            "owner": "Lightning-AI",
+            "stars": 3883,
+            "url": "https://github.com/Lightning-AI/LitServe"
+        },
+        {
+            "name": "fastapi-admin",
+            "owner": "fastapi-admin",
+            "stars": 3776,
+            "url": "https://github.com/fastapi-admin/fastapi-admin"
+        },
+        {
+            "name": "mcp-context-forge",
+            "owner": "IBM",
+            "stars": 3760,
+            "url": "https://github.com/IBM/mcp-context-forge"
+        },
+        {
+            "name": "Streamer-Sales",
+            "owner": "PeterH0323",
+            "stars": 3698,
+            "url": "https://github.com/PeterH0323/Streamer-Sales"
+        },
+        {
+            "name": "tracecat",
+            "owner": "TracecatHQ",
+            "stars": 3609,
+            "url": "https://github.com/TracecatHQ/tracecat"
+        },
+        {
+            "name": "opyrator",
+            "owner": "ml-tooling",
+            "stars": 3136,
+            "url": "https://github.com/ml-tooling/opyrator"
+        },
+        {
+            "name": "docarray",
+            "owner": "docarray",
+            "stars": 3118,
+            "url": "https://github.com/docarray/docarray"
+        },
+        {
+            "name": "fastapi-realworld-example-app",
+            "owner": "nsidnev",
+            "stars": 3109,
+            "url": "https://github.com/nsidnev/fastapi-realworld-example-app"
+        },
+        {
+            "name": "uvicorn-gunicorn-fastapi-docker",
+            "owner": "tiangolo",
+            "stars": 2907,
+            "url": "https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker"
+        },
+        {
+            "name": "FastAPI-template",
+            "owner": "s3rius",
+            "stars": 2800,
+            "url": "https://github.com/s3rius/FastAPI-template"
+        },
+        {
+            "name": "sqladmin",
+            "owner": "smithyhq",
+            "stars": 2730,
+            "url": "https://github.com/smithyhq/sqladmin"
+        },
+        {
+            "name": "fastapi-react",
+            "owner": "Buuntu",
+            "stars": 2586,
+            "url": "https://github.com/Buuntu/fastapi-react"
+        },
+        {
+            "name": "dograh",
+            "owner": "dograh-hq",
+            "stars": 2521,
+            "url": "https://github.com/dograh-hq/dograh"
+        },
+        {
+            "name": "supabase-py",
+            "owner": "supabase",
+            "stars": 2513,
+            "url": "https://github.com/supabase/supabase-py"
+        },
+        {
+            "name": "RasaGPT",
+            "owner": "paulpierre",
+            "stars": 2464,
+            "url": "https://github.com/paulpierre/RasaGPT"
+        },
+        {
+            "name": "Rapid-MLX",
+            "owner": "raullenchai",
+            "stars": 2409,
+            "url": "https://github.com/raullenchai/Rapid-MLX"
+        },
+        {
+            "name": "AIstudioProxyAPI",
+            "owner": "CJackHwang",
+            "stars": 2396,
+            "url": "https://github.com/CJackHwang/AIstudioProxyAPI"
+        },
+        {
+            "name": "any-auto-register",
+            "owner": "lxf746",
+            "stars": 2344,
+            "url": "https://github.com/lxf746/any-auto-register"
+        },
+        {
+            "name": "nextpy",
+            "owner": "dot-agent",
+            "stars": 2338,
+            "url": "https://github.com/dot-agent/nextpy"
+        },
+        {
+            "name": "fastapi-utils",
+            "owner": "fastapiutils",
+            "stars": 2309,
+            "url": "https://github.com/fastapiutils/fastapi-utils"
+        },
+        {
+            "name": "fastapi-langgraph-agent-production-ready-template",
+            "owner": "wassim249",
+            "stars": 2298,
+            "url": "https://github.com/wassim249/fastapi-langgraph-agent-production-ready-template"
+        },
+        {
+            "name": "fastapi-best-architecture",
+            "owner": "fastapi-practices",
+            "stars": 2235,
+            "url": "https://github.com/fastapi-practices/fastapi-best-architecture"
+        },
+        {
+            "name": "solara",
+            "owner": "widgetti",
+            "stars": 2161,
+            "url": "https://github.com/widgetti/solara"
+        },
+        {
+            "name": "mangum",
+            "owner": "Kludex",
+            "stars": 2115,
+            "url": "https://github.com/Kludex/mangum"
+        },
+        {
+            "name": "slowapi",
+            "owner": "laurentS",
+            "stars": 1991,
+            "url": "https://github.com/laurentS/slowapi"
+        },
+        {
+            "name": "xhs_ai_publisher",
+            "owner": "BetaStreetOmnis",
+            "stars": 1966,
+            "url": "https://github.com/BetaStreetOmnis/xhs_ai_publisher"
+        },
+        {
+            "name": "openapi-python-client",
+            "owner": "openapi-generators",
+            "stars": 1957,
+            "url": "https://github.com/openapi-generators/openapi-python-client"
+        },
+        {
+            "name": "headroom",
+            "owner": "chopratejas",
+            "stars": 1943,
+            "url": "https://github.com/chopratejas/headroom"
+        },
+        {
+            "name": "FastAPI-boilerplate",
+            "owner": "benavlabs",
+            "stars": 1919,
+            "url": "https://github.com/benavlabs/FastAPI-boilerplate"
+        },
+        {
+            "name": "piccolo",
+            "owner": "piccolo-orm",
+            "stars": 1906,
+            "url": "https://github.com/piccolo-orm/piccolo"
+        },
+        {
+            "name": "manage-fastapi",
+            "owner": "ycd",
+            "stars": 1903,
+            "url": "https://github.com/ycd/manage-fastapi"
+        },
+        {
+            "name": "fastapi-cache",
+            "owner": "long2ice",
+            "stars": 1865,
+            "url": "https://github.com/long2ice/fastapi-cache"
+        },
+        {
+            "name": "ormar",
+            "owner": "ormar-orm",
+            "stars": 1809,
+            "url": "https://github.com/ormar-orm/ormar"
+        },
+        {
+            "name": "python-week-2022",
+            "owner": "rochacbruno",
+            "stars": 1807,
+            "url": "https://github.com/rochacbruno/python-week-2022"
+        },
+        {
+            "name": "kiro-gateway",
+            "owner": "jwadow",
+            "stars": 1750,
+            "url": "https://github.com/jwadow/kiro-gateway"
+        },
+        {
+            "name": "hajimi",
+            "owner": "wyeeeee",
+            "stars": 1741,
+            "url": "https://github.com/wyeeeee/hajimi"
+        },
+        {
+            "name": "open-wearables",
+            "owner": "the-momentum",
+            "stars": 1713,
+            "url": "https://github.com/the-momentum/open-wearables"
+        },
+        {
+            "name": "WebRPA",
+            "owner": "pmh1314520",
+            "stars": 1700,
+            "url": "https://github.com/pmh1314520/WebRPA"
+        },
+        {
+            "name": "fastapi-crudrouter",
+            "owner": "awtkns",
+            "stars": 1691,
+            "url": "https://github.com/awtkns/fastapi-crudrouter"
+        },
+        {
+            "name": "fastapi-pagination",
+            "owner": "uriyyo",
+            "stars": 1657,
+            "url": "https://github.com/uriyyo/fastapi-pagination"
+        },
+        {
+            "name": "langchain-serve",
+            "owner": "jina-ai",
+            "stars": 1640,
+            "url": "https://github.com/jina-ai/langchain-serve"
+        },
+        {
+            "name": "coronavirus-tracker-api",
+            "owner": "ExpDev07",
+            "stars": 1567,
+            "url": "https://github.com/ExpDev07/coronavirus-tracker-api"
+        },
+        {
+            "name": "codex-lb",
+            "owner": "Soju06",
+            "stars": 1562,
+            "url": "https://github.com/Soju06/codex-lb"
+        },
+        {
+            "name": "fastapi-amis-admin",
+            "owner": "amisadmin",
+            "stars": 1549,
+            "url": "https://github.com/amisadmin/fastapi-amis-admin"
+        },
+        {
+            "name": "fastcrud",
+            "owner": "benavlabs",
+            "stars": 1519,
+            "url": "https://github.com/benavlabs/fastcrud"
+        },
+        {
+            "name": "tavily-key-generator",
+            "owner": "skernelx",
+            "stars": 1499,
+            "url": "https://github.com/skernelx/tavily-key-generator"
+        },
+        {
+            "name": "fastapi-boilerplate",
+            "owner": "teamhide",
+            "stars": 1491,
+            "url": "https://github.com/teamhide/fastapi-boilerplate"
+        },
+        {
+            "name": "prometheus-fastapi-instrumentator",
+            "owner": "trallnag",
+            "stars": 1455,
+            "url": "https://github.com/trallnag/prometheus-fastapi-instrumentator"
+        },
+        {
+            "name": "fastapi-code-generator",
+            "owner": "koxudaxi",
+            "stars": 1395,
+            "url": "https://github.com/koxudaxi/fastapi-code-generator"
+        },
+        {
+            "name": "aktools",
+            "owner": "akfamily",
+            "stars": 1371,
+            "url": "https://github.com/akfamily/aktools"
+        },
+        {
+            "name": "RuoYi-Vue3-FastAPI",
+            "owner": "insistence",
+            "stars": 1346,
+            "url": "https://github.com/insistence/RuoYi-Vue3-FastAPI"
+        },
+        {
+            "name": "budgetml",
+            "owner": "ebhy",
+            "stars": 1345,
+            "url": "https://github.com/ebhy/budgetml"
+        },
+        {
+            "name": "bolt-python",
+            "owner": "slackapi",
+            "stars": 1305,
+            "url": "https://github.com/slackapi/bolt-python"
+        },
+        {
+            "name": "full-stack-ai-agent-template",
+            "owner": "vstorm-co",
+            "stars": 1285,
+            "url": "https://github.com/vstorm-co/full-stack-ai-agent-template"
+        },
+        {
+            "name": "yubal",
+            "owner": "guillevc",
+            "stars": 1272,
+            "url": "https://github.com/guillevc/yubal"
+        },
+        {
+            "name": "fastapi-alembic-sqlmodel-async",
+            "owner": "vargasjona",
+            "stars": 1269,
+            "url": "https://github.com/vargasjona/fastapi-alembic-sqlmodel-async"
+        },
+        {
+            "name": "fastapi_production_template",
+            "owner": "zhanymkanov",
+            "stars": 1246,
+            "url": "https://github.com/zhanymkanov/fastapi_production_template"
+        },
+        {
+            "name": "Chatterbox-TTS-Server",
+            "owner": "devnen",
+            "stars": 1233,
+            "url": "https://github.com/devnen/Chatterbox-TTS-Server"
+        },
+        {
+            "name": "ultimate-fastapi-tutorial",
+            "owner": "ChristopherGS",
+            "stars": 1213,
+            "url": "https://github.com/ChristopherGS/ultimate-fastapi-tutorial"
+        },
+        {
+            "name": "authx",
+            "owner": "yezz123",
+            "stars": 1173,
+            "url": "https://github.com/yezz123/authx"
+        },
+        {
+            "name": "enterprise-deep-research",
+            "owner": "SalesforceAIResearch",
+            "stars": 1169,
+            "url": "https://github.com/SalesforceAIResearch/enterprise-deep-research"
+        },
+        {
+            "name": "odmantic",
+            "owner": "art049",
+            "stars": 1168,
+            "url": "https://github.com/art049/odmantic"
+        },
+        {
+            "name": "WebAI-to-API",
+            "owner": "Amm1rr",
+            "stars": 1150,
+            "url": "https://github.com/Amm1rr/WebAI-to-API"
+        },
+        {
+            "name": "WebVideo2NAS",
+            "owner": "asdfghj1237890",
+            "stars": 1149,
+            "url": "https://github.com/asdfghj1237890/WebVideo2NAS"
+        },
+        {
+            "name": "intelligent-audit-system",
+            "owner": "Ricky-7-Yan",
+            "stars": 1139,
+            "url": "https://github.com/Ricky-7-Yan/intelligent-audit-system"
+        },
+        {
+            "name": "SAG",
+            "owner": "Zleap-AI",
+            "stars": 1131,
+            "url": "https://github.com/Zleap-AI/SAG"
+        },
+        {
+            "name": "ddddocr-fastapi",
+            "owner": "sml2h3",
+            "stars": 1110,
+            "url": "https://github.com/sml2h3/ddddocr-fastapi"
+        },
+        {
+            "name": "fastapi-observability",
+            "owner": "blueswen",
+            "stars": 1099,
+            "url": "https://github.com/blueswen/fastapi-observability"
+        },
+        {
+            "name": "titiler",
+            "owner": "developmentseed",
+            "stars": 1097,
+            "url": "https://github.com/developmentseed/titiler"
+        },
+        {
+            "name": "fastapi-course",
+            "owner": "Sanjeev-Thiyagarajan",
+            "stars": 1096,
+            "url": "https://github.com/Sanjeev-Thiyagarajan/fastapi-course"
+        },
+        {
+            "name": "fim-one",
+            "owner": "fim-ai",
+            "stars": 1093,
+            "url": "https://github.com/fim-ai/fim-one"
+        },
+        {
+            "name": "AiSOC",
+            "owner": "beenuar",
+            "stars": 1090,
+            "url": "https://github.com/beenuar/AiSOC"
+        },
+        {
+            "name": "swiss_army_llama",
+            "owner": "Dicklesworthstone",
+            "stars": 1053,
+            "url": "https://github.com/Dicklesworthstone/swiss_army_llama"
+        },
+        {
+            "name": "secure",
+            "owner": "TypeError",
+            "stars": 1038,
+            "url": "https://github.com/TypeError/secure"
+        },
+        {
+            "name": "Blitz",
+            "owner": "ReturnFI",
+            "stars": 1034,
+            "url": "https://github.com/ReturnFI/Blitz"
+        },
+        {
+            "name": "fastapi-nano",
+            "owner": "rednafi",
+            "stars": 1033,
+            "url": "https://github.com/rednafi/fastapi-nano"
+        },
+        {
+            "name": "autollm",
+            "owner": "viddexa",
+            "stars": 1004,
+            "url": "https://github.com/viddexa/autollm"
+        },
+        {
+            "name": "fastapi-do-zero",
+            "owner": "dunossauro",
+            "stars": 996,
+            "url": "https://github.com/dunossauro/fastapi-do-zero"
+        },
+        {
+            "name": "fastapi-scaff",
+            "owner": "atpuxiner",
+            "stars": 994,
+            "url": "https://github.com/atpuxiner/fastapi-scaff"
+        },
+        {
+            "name": "lanarky",
+            "owner": "ajndkr",
+            "stars": 994,
+            "url": "https://github.com/ajndkr/lanarky"
+        },
+        {
+            "name": "fastapi-mail",
+            "owner": "sabuhish",
+            "stars": 991,
+            "url": "https://github.com/sabuhish/fastapi-mail"
+        },
+        {
+            "name": "starlette-admin",
+            "owner": "jowilf",
+            "stars": 988,
+            "url": "https://github.com/jowilf/starlette-admin"
+        },
+        {
+            "name": "energy-forecasting",
+            "owner": "iusztinpaul",
+            "stars": 972,
+            "url": "https://github.com/iusztinpaul/energy-forecasting"
+        },
+        {
+            "name": "marker-api",
+            "owner": "adithya-s-k",
+            "stars": 970,
+            "url": "https://github.com/adithya-s-k/marker-api"
+        },
+        {
+            "name": "KonomiTV",
+            "owner": "tsukumijima",
+            "stars": 969,
+            "url": "https://github.com/tsukumijima/KonomiTV"
+        },
+        {
+            "name": "bitcart",
+            "owner": "bitcart",
+            "stars": 942,
+            "url": "https://github.com/bitcart/bitcart"
+        },
+        {
+            "name": "langcorn",
+            "owner": "msoedov",
+            "stars": 939,
+            "url": "https://github.com/msoedov/langcorn"
+        },
+        {
+            "name": "aegra",
+            "owner": "aegra",
+            "stars": 924,
+            "url": "https://github.com/aegra/aegra"
+        },
+        {
+            "name": "httpdbg",
+            "owner": "cle-b",
+            "stars": 904,
+            "url": "https://github.com/cle-b/httpdbg"
+        },
+        {
+            "name": "api-llm-ocr",
+            "owner": "yigitkonur",
+            "stars": 891,
+            "url": "https://github.com/yigitkonur/api-llm-ocr"
+        },
+        {
+            "name": "ludic",
+            "owner": "getludic",
+            "stars": 890,
+            "url": "https://github.com/getludic/ludic"
+        },
+        {
+            "name": "air",
+            "owner": "feldroy",
+            "stars": 885,
+            "url": "https://github.com/feldroy/air"
+        },
+        {
+            "name": "8mb.local",
+            "owner": "JMS1717",
+            "stars": 860,
+            "url": "https://github.com/JMS1717/8mb.local"
+        },
+        {
+            "name": "FastAPI-Backend-Template",
+            "owner": "Aeternalis-Ingenium",
+            "stars": 858,
+            "url": "https://github.com/Aeternalis-Ingenium/FastAPI-Backend-Template"
+        },
+        {
+            "name": "PyNest",
+            "owner": "PythonNest",
+            "stars": 851,
+            "url": "https://github.com/PythonNest/PyNest"
+        },
+        {
+            "name": "fastapi-versioning",
+            "owner": "DeanWay",
+            "stars": 845,
+            "url": "https://github.com/DeanWay/fastapi-versioning"
+        },
+        {
+            "name": "pytriton",
+            "owner": "triton-inference-server",
+            "stars": 845,
+            "url": "https://github.com/triton-inference-server/pytriton"
+        },
+        {
+            "name": "lccn_predictor",
+            "owner": "baoliay2008",
+            "stars": 833,
+            "url": "https://github.com/baoliay2008/lccn_predictor"
+        },
+        {
+            "name": "fastapi-jwt-auth",
+            "owner": "IndominusByte",
+            "stars": 828,
+            "url": "https://github.com/IndominusByte/fastapi-jwt-auth"
+        },
+        {
+            "name": "fastapi_login",
+            "owner": "maxrdu",
+            "stars": 823,
+            "url": "https://github.com/maxrdu/fastapi_login"
+        },
+        {
+            "name": "rag_api",
+            "owner": "danny-avila",
+            "stars": 823,
+            "url": "https://github.com/danny-avila/rag_api"
+        },
+        {
+            "name": "transmute",
+            "owner": "transmute-app",
+            "stars": 806,
+            "url": "https://github.com/transmute-app/transmute"
+        },
+        {
+            "name": "fastapi-mvc",
+            "owner": "fastapi-mvc",
+            "stars": 800,
+            "url": "https://github.com/fastapi-mvc/fastapi-mvc"
+        },
+        {
+            "name": "learn-generative-ai",
+            "owner": "panaverse",
+            "stars": 796,
+            "url": "https://github.com/panaverse/learn-generative-ai"
+        },
+        {
+            "name": "flaskwebgui",
+            "owner": "ClimenteA",
+            "stars": 787,
+            "url": "https://github.com/ClimenteA/flaskwebgui"
+        },
+        {
+            "name": "fastapi-guard",
+            "owner": "rennf93",
+            "stars": 786,
+            "url": "https://github.com/rennf93/fastapi-guard"
+        },
+        {
+            "name": "fastapi-limiter",
+            "owner": "long2ice",
+            "stars": 784,
+            "url": "https://github.com/long2ice/fastapi-limiter"
+        },
+        {
+            "name": "advanced-alchemy",
+            "owner": "litestar-org",
+            "stars": 771,
+            "url": "https://github.com/litestar-org/advanced-alchemy"
+        },
+        {
+            "name": "KS-Downloader",
+            "owner": "JoeanAmier",
+            "stars": 767,
+            "url": "https://github.com/JoeanAmier/KS-Downloader"
+        },
+        {
+            "name": "docling-api",
+            "owner": "drmingler",
+            "stars": 764,
+            "url": "https://github.com/drmingler/docling-api"
+        },
+        {
+            "name": "fastapi-sqlalchemy",
+            "owner": "mfreeborn",
+            "stars": 757,
+            "url": "https://github.com/mfreeborn/fastapi-sqlalchemy"
+        },
+        {
+            "name": "ohmycaptcha",
+            "owner": "shenhao-stu",
+            "stars": 744,
+            "url": "https://github.com/shenhao-stu/ohmycaptcha"
+        },
+        {
+            "name": "fastapi_contrib",
+            "owner": "identixone",
+            "stars": 743,
+            "url": "https://github.com/identixone/fastapi_contrib"
+        },
+        {
+            "name": "xianyu_spider",
+            "owner": "superboyyy",
+            "stars": 735,
+            "url": "https://github.com/superboyyy/xianyu_spider"
+        },
+        {
+            "name": "annotated-py-projects",
+            "owner": "hhstore",
+            "stars": 728,
+            "url": "https://github.com/hhstore/annotated-py-projects"
+        },
+        {
+            "name": "oxyde",
+            "owner": "mr-fatalyst",
+            "stars": 725,
+            "url": "https://github.com/mr-fatalyst/oxyde"
+        },
+        {
+            "name": "AgentChat",
+            "owner": "Shy2593666979",
+            "stars": 724,
+            "url": "https://github.com/Shy2593666979/AgentChat"
+        },
+        {
+            "name": "fief",
+            "owner": "fief-dev",
+            "stars": 719,
+            "url": "https://github.com/fief-dev/fief"
+        },
+        {
+            "name": "linbing",
+            "owner": "taomujian",
+            "stars": 716,
+            "url": "https://github.com/taomujian/linbing"
+        },
+        {
+            "name": "dddpy",
+            "owner": "iktakahiro",
+            "stars": 715,
+            "url": "https://github.com/iktakahiro/dddpy"
+        },
+        {
+            "name": "fasthx",
+            "owner": "volfpeter",
+            "stars": 713,
+            "url": "https://github.com/volfpeter/fasthx"
+        },
+        {
+            "name": "cookiecutter-fastapi",
+            "owner": "arthurhenrique",
+            "stars": 708,
+            "url": "https://github.com/arthurhenrique/cookiecutter-fastapi"
+        },
+        {
+            "name": "Orpheus-FastAPI",
+            "owner": "Lex-au",
+            "stars": 696,
+            "url": "https://github.com/Lex-au/Orpheus-FastAPI"
+        },
+        {
+            "name": "pity",
+            "owner": "wuranxu",
+            "stars": 691,
+            "url": "https://github.com/wuranxu/pity"
+        },
+        {
+            "name": "fastapi-azure-auth",
+            "owner": "intility",
+            "stars": 675,
+            "url": "https://github.com/intility/fastapi-azure-auth"
+        },
+        {
+            "name": "modern-apis-with-fastapi",
+            "owner": "talkpython",
+            "stars": 669,
+            "url": "https://github.com/talkpython/modern-apis-with-fastapi"
+        },
+        {
+            "name": "fastapi-celery",
+            "owner": "GregaVrbancic",
+            "stars": 667,
+            "url": "https://github.com/GregaVrbancic/fastapi-celery"
+        },
+        {
+            "name": "Fooocus-API",
+            "owner": "mrhan1993",
+            "stars": 664,
+            "url": "https://github.com/mrhan1993/Fooocus-API"
+        },
+        {
+            "name": "fastapi-permissions",
+            "owner": "holgi",
+            "stars": 656,
+            "url": "https://github.com/holgi/fastapi-permissions"
+        },
+        {
+            "name": "Gemini-FastAPI",
+            "owner": "Nativu5",
+            "stars": 653,
+            "url": "https://github.com/Nativu5/Gemini-FastAPI"
+        },
+        {
+            "name": "gpt-home",
+            "owner": "judahpaul16",
+            "stars": 644,
+            "url": "https://github.com/judahpaul16/gpt-home"
+        },
+        {
+            "name": "scrapecraft",
+            "owner": "ScrapeGraphAI",
+            "stars": 641,
+            "url": "https://github.com/ScrapeGraphAI/scrapecraft"
+        },
+        {
+            "name": "mineru-tianshu",
+            "owner": "magicyuan876",
+            "stars": 640,
+            "url": "https://github.com/magicyuan876/mineru-tianshu"
+        },
+        {
+            "name": "alexandria-audiobook",
+            "owner": "Finrandojin",
+            "stars": 636,
+            "url": "https://github.com/Finrandojin/alexandria-audiobook"
+        },
+        {
+            "name": "Options-Analytics-Agent",
+            "owner": "nuglifeleoji",
+            "stars": 627,
+            "url": "https://github.com/nuglifeleoji/Options-Analytics-Agent"
+        },
+        {
+            "name": "easyauth",
+            "owner": "codemation",
+            "stars": 620,
+            "url": "https://github.com/codemation/easyauth"
+        },
+        {
+            "name": "cookiecutter-spacy-fastapi",
+            "owner": "microsoft",
+            "stars": 619,
+            "url": "https://github.com/microsoft/cookiecutter-spacy-fastapi"
+        },
+        {
+            "name": "fastapi-plugins",
+            "owner": "madkote",
+            "stars": 617,
+            "url": "https://github.com/madkote/fastapi-plugins"
+        },
+        {
+            "name": "InsightFace-REST",
+            "owner": "SthPhoenix",
+            "stars": 617,
+            "url": "https://github.com/SthPhoenix/InsightFace-REST"
+        },
+        {
+            "name": "mini-rag",
+            "owner": "bakrianoo",
+            "stars": 615,
+            "url": "https://github.com/bakrianoo/mini-rag"
+        },
+        {
+            "name": "fastapi-cli",
+            "owner": "fastapi",
+            "stars": 611,
+            "url": "https://github.com/fastapi/fastapi-cli"
+        },
+        {
+            "name": "starlette-context",
+            "owner": "tomwojcik",
+            "stars": 611,
+            "url": "https://github.com/tomwojcik/starlette-context"
+        },
+        {
+            "name": "fastapi-events",
+            "owner": "melvinkcx",
+            "stars": 609,
+            "url": "https://github.com/melvinkcx/fastapi-events"
+        },
+        {
+            "name": "fastapi-ml-skeleton",
+            "owner": "eightBEC",
+            "stars": 601,
+            "url": "https://github.com/eightBEC/fastapi-ml-skeleton"
+        },
+        {
+            "name": "FastAPI-Production-Boilerplate",
+            "owner": "iam-abbas",
+            "stars": 595,
+            "url": "https://github.com/iam-abbas/FastAPI-Production-Boilerplate"
+        },
+        {
+            "name": "fastapi_websocket_pubsub",
+            "owner": "permitio",
+            "stars": 591,
+            "url": "https://github.com/permitio/fastapi_websocket_pubsub"
+        },
+        {
+            "name": "xtts-api-server",
+            "owner": "daswer123",
+            "stars": 587,
+            "url": "https://github.com/daswer123/xtts-api-server"
+        },
+        {
+            "name": "tasking-manager",
+            "owner": "hotosm",
+            "stars": 587,
+            "url": "https://github.com/hotosm/tasking-manager"
+        },
+        {
+            "name": "cashews",
+            "owner": "Krukov",
+            "stars": 580,
+            "url": "https://github.com/Krukov/cashews"
+        },
+        {
+            "name": "HibiAPI",
+            "owner": "mixmoe",
+            "stars": 579,
+            "url": "https://github.com/mixmoe/HibiAPI"
+        },
+        {
+            "name": "minimal-fastapi-postgres-template",
+            "owner": "rafsaf",
+            "stars": 566,
+            "url": "https://github.com/rafsaf/minimal-fastapi-postgres-template"
+        },
+        {
+            "name": "fastapi-crud-async",
+            "owner": "testdrivenio",
+            "stars": 563,
+            "url": "https://github.com/testdrivenio/fastapi-crud-async"
+        },
+        {
+            "name": "fastapi-sqlmodel-alembic",
+            "owner": "testdrivenio",
+            "stars": 561,
+            "url": "https://github.com/testdrivenio/fastapi-sqlmodel-alembic"
+        },
+        {
+            "name": "fastapi-clean-example",
+            "owner": "ivan-borovets",
+            "stars": 554,
+            "url": "https://github.com/ivan-borovets/fastapi-clean-example"
+        },
+        {
+            "name": "netbox-proxbox",
+            "owner": "emersonfelipesp",
+            "stars": 554,
+            "url": "https://github.com/emersonfelipesp/netbox-proxbox"
+        },
+        {
+            "name": "fastapi-gino-arq-uvicorn",
+            "owner": "leosussan",
+            "stars": 553,
+            "url": "https://github.com/leosussan/fastapi-gino-arq-uvicorn"
+        },
+        {
+            "name": "fastapi-microservices",
+            "owner": "Kludex",
+            "stars": 546,
+            "url": "https://github.com/Kludex/fastapi-microservices"
+        },
+        {
+            "name": "fastapi-mcp-langgraph-template",
+            "owner": "NicholasGoh",
+            "stars": 546,
+            "url": "https://github.com/NicholasGoh/fastapi-mcp-langgraph-template"
+        },
+        {
+            "name": "fastapi-mongo",
+            "owner": "Youngestdev",
+            "stars": 545,
+            "url": "https://github.com/Youngestdev/fastapi-mongo"
+        },
+        {
+            "name": "fastapi-clean-architecture",
+            "owner": "jujumilk3",
+            "stars": 542,
+            "url": "https://github.com/jujumilk3/fastapi-clean-architecture"
+        },
+        {
+            "name": "fastapi-sqlalchemy-asyncpg",
+            "owner": "grillazz",
+            "stars": 523,
+            "url": "https://github.com/grillazz/fastapi-sqlalchemy-asyncpg"
+        },
+        {
+            "name": "Dash-FastAPI-Admin",
+            "owner": "HogaStack",
+            "stars": 511,
+            "url": "https://github.com/HogaStack/Dash-FastAPI-Admin"
+        },
+        {
+            "name": "FastDepends",
+            "owner": "Lancetnik",
+            "stars": 506,
+            "url": "https://github.com/Lancetnik/FastDepends"
+        },
+        {
+            "name": "restai",
+            "owner": "apocas",
+            "stars": 506,
+            "url": "https://github.com/apocas/restai"
+        },
+        {
+            "name": "ScienceClaw",
+            "owner": "AgentTeam-TaichuAI",
+            "stars": 505,
+            "url": "https://github.com/AgentTeam-TaichuAI/ScienceClaw"
+        },
+        {
+            "name": "streamlit-fastapi-model-serving",
+            "owner": "davidefiocco",
+            "stars": 503,
+            "url": "https://github.com/davidefiocco/streamlit-fastapi-model-serving"
+        },
+        {
+            "name": "fastapi-clean-example",
+            "owner": "0xTheProDev",
+            "stars": 502,
+            "url": "https://github.com/0xTheProDev/fastapi-clean-example"
+        },
+        {
+            "name": "auto-browser",
+            "owner": "LvcidPsyche",
+            "stars": 501,
+            "url": "https://github.com/LvcidPsyche/auto-browser"
+        },
+        {
+            "name": "fastapi-rocket-boilerplate",
+            "owner": "asacristani",
+            "stars": 497,
+            "url": "https://github.com/asacristani/fastapi-rocket-boilerplate"
+        },
+        {
+            "name": "fastapi-mysql-generator",
+            "owner": "wxy2077",
+            "stars": 492,
+            "url": "https://github.com/wxy2077/fastapi-mysql-generator"
+        },
+        {
+            "name": "rag-postgres-openai-python",
+            "owner": "Azure-Samples",
+            "stars": 490,
+            "url": "https://github.com/Azure-Samples/rag-postgres-openai-python"
+        },
+        {
+            "name": "OpenUBA",
+            "owner": "GACWR",
+            "stars": 483,
+            "url": "https://github.com/GACWR/OpenUBA"
+        },
+        {
+            "name": "fastapi-sso",
+            "owner": "tomasvotava",
+            "stars": 476,
+            "url": "https://github.com/tomasvotava/fastapi-sso"
+        },
+        {
+            "name": "Streaming-Media-Server-Pro",
+            "owner": "kfcx",
+            "stars": 474,
+            "url": "https://github.com/kfcx/Streaming-Media-Server-Pro"
+        },
+        {
+            "name": "fastapi_simple_security",
+            "owner": "mrtolkien",
+            "stars": 470,
+            "url": "https://github.com/mrtolkien/fastapi_simple_security"
+        }
+    ]
+}

@@ -6,7 +6,7 @@ import httpx
 
 from app.core.config import GITHUB_SEARCH_API, PER_PAGE
 
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+TOKEN_FOR_GITHUB_API = os.getenv("TOKEN_FOR_GITHUB_API")
 
 
 async def fetch_page(
@@ -47,8 +47,8 @@ async def fetch_page(
         "Accept": "application/vnd.github+json",
         "User-Agent": "FastAPI-GitHub-Searcher",
     }
-    if GITHUB_TOKEN:
-        headers["Authorization"] = f"Bearer {GITHUB_TOKEN}"
+    if TOKEN_FOR_GITHUB_API:
+        headers["Authorization"] = f"Bearer {TOKEN_FOR_GITHUB_API}"
 
     response = await client.get(
         GITHUB_SEARCH_API,

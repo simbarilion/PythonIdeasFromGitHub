@@ -1,7 +1,7 @@
 import csv
 import json
 
-from app.core.config import DATA_DIR
+from app.core.config import DATA_DIR, make_filename
 
 
 def save_to_json(data: dict, query: str) -> None:
@@ -13,7 +13,8 @@ def save_to_json(data: dict, query: str) -> None:
     Returns:
         None
     """
-    path = DATA_DIR / f"{query}.json"
+    filename = make_filename(query, "json")
+    path = DATA_DIR / filename
 
     with open(path, "w", encoding="utf-8") as file:
         json.dump(
@@ -38,7 +39,8 @@ def save_to_csv(data: dict, query: str) -> None:
     Returns:
         None
     """
-    path = DATA_DIR / f"{query}.csv"
+    filename = make_filename(query, "csv")
+    path = DATA_DIR / filename
 
     with open(path, "w", newline="", encoding="utf-8") as file:
         writer = csv.writer(file)

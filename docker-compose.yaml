@@ -5,7 +5,7 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - GITHUB_TOKEN=${GITHUB_TOKEN}
+      - TOKEN_FOR_GITHUB_API=${TOKEN_FOR_GITHUB_API}
     volumes:
       - .:/app
     command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload

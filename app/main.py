@@ -1,13 +1,18 @@
 from fastapi import FastAPI, HTTPException, Query
+from starlette import status
 
 from app.core.config import (
     DEFAULT_LIMIT,
     DEFAULT_MIN_STARS,
+    LOGS_LEVEL,
 )
+from app.core.logging import setup_logger
 from app.github_client import search_repositories
 from app.schemas import SearchResponseSchema
 from app.services import process_repositories
 from app.storage import save_to_csv, save_to_json
+
+logger = setup_logger(__name__, level=LOGS_LEVEL)
 
 app = FastAPI(
     title="GitHub Projects API",
@@ -26,6 +31,23 @@ app = FastAPI(
     """,
     version="1.0.0",
 )
+
+
+@app.get(
+    "/health",
+    summary="Простая проверка работоспособности API",
+    description="Возвращает статус API",
+    status_code=status.HTTP_200_OK,
+)
+async def health_check():
+    """Проверка, что API запущено"""
+    try:
+        logger.info("Health check called")
+        return {"status": "ok"}
+
+    except Exception as e:
+        logger.exception('Health check failed": %s', e)
+        raise HTTPException(status_code=500, detail="Service unhealthy") from e
 
 
 @app.get(
@@ -78,23 +100,31 @@ async def search_projects(
         - сохраняет результаты в JSON
         - сохраняет результаты в CSV
     """
-    repos = await search_repositories(
-        query=query,
-        language=language,
-        limit=limit,
-        min_stars=min_stars,
-    )
-    if repos is None:
-        raise HTTPException(
-            status_code=503,
-            detail="GitHub API unavailable",
+    logger.info("Search started")
+    try:
+        repos = await search_repositories(
+            query=query,
+            language=language,
+            limit=limit,
+            min_stars=min_stars,
         )
+        if repos is None:
+            logger.error("GitHub API unavailable")
+            raise HTTPException(
+                status_code=503,
+                detail="GitHub API unavailable",
+            )
 
-    result = process_repositories(
-        query=query,
-        repos=repos,
-    )
-    save_to_json(result, query)
-    save_to_csv(result, query)
+        result = process_repositories(
+            query=query,
+            repos=repos,
+        )
+        save_to_json(result, query)
+        save_to_csv(result, query)
 
-    return result
+        logger.info("Search completed")
+        return result
+
+    except Exception as e:
+        logger.exception("Unexpected error in /search: %s", e)
+        raise HTTPException(status_code=500, detail="Internal server error") from e
