@@ -1,7 +1,19 @@
 def process_repositories(
     query: str,
     repos: list,
-):
+) -> dict:
+    """
+    Обрабатывает список GitHub репозиториев и вычисляет агрегированные метрики.
+    Функциональность:
+    - фильтрация и нормализация данных
+    - расчет статистик (sum, avg, median)
+    - определение топ-репозитория
+    Args:
+        query (str): поисковый запрос
+        repos (list[dict]): список репозиториев GitHub
+    Returns:
+        dict: структурированный результат анализа
+    """
     processed = [
         {
             "name": repo["name"],
@@ -11,7 +23,7 @@ def process_repositories(
         }
         for repo in repos
     ]
-    total_stars = sum(repo["stars"] for repo in repos)
+    total_stars = sum(repo["stargazers_count"] for repo in repos)
     average_stars = total_stars / len(processed) if processed else 0
     top_repo = processed[0]["name"] if processed else None
     return {

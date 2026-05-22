@@ -1,8 +1,66 @@
+import asyncio
 import math
+import os
 
 import httpx
 
 from app.core.config import GITHUB_SEARCH_API, PER_PAGE
+
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+
+
+async def fetch_page(
+    client: httpx.AsyncClient,
+    query: str,
+    language: str,
+    min_stars: int,
+    page: int,
+) -> list[dict]:
+    """
+    Выполняет запрос одной страницы GitHub Search API.
+    Args:
+        client (httpx.AsyncClient): асинхронный HTTP клиент
+        query (str): поисковый запрос пользователя
+        language (str): язык программирования для фильтрации
+        min_stars (int): минимальное количество stars
+        page (int): номер страницы результата
+    Returns:
+        list[dict]: список репозиториев GitHub (items из API ответа)
+    Raises:
+        httpx.HTTPStatusError: при ошибке HTTP ответа
+    """
+    search_parts = [query]
+    if language:
+        search_parts.append(f"language:{language}")
+    if min_stars > 0:
+        search_parts.append(f"stars:>={min_stars}")
+    search_query = " ".join(search_parts)
+
+    params = {
+        "q": search_query,
+        "sort": "stars",
+        "order": "desc",
+        "per_page": PER_PAGE,
+        "page": page,
+    }
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "User-Agent": "FastAPI-GitHub-Searcher",
+    }
+    if GITHUB_TOKEN:
+        headers["Authorization"] = f"Bearer {GITHUB_TOKEN}"
+
+    response = await client.get(
+        GITHUB_SEARCH_API,
+        params=params,
+        headers=headers,
+        timeout=15.0,
+    )
+
+    response.raise_for_status()
+    data = response.json()
+
+    return data.get("items", [])
 
 
 async def search_repositories(
@@ -10,40 +68,44 @@ async def search_repositories(
     language: str,
     limit: int,
     min_stars: int,
-):
+) -> list[dict] | None:
+    """
+    Асинхронно выполняет поиск GitHub репозиториев с поддержкой пагинации.
+    Функциональность:
+    - поиск по ключевому слову
+    - фильтрация по языку программирования
+    - фильтрация по минимальному количеству stars
+    - автоматическая пагинация (до limit)
+    - параллельные запросы через asyncio.gather
+    Args:
+        query (str): поисковый запрос
+        language (str): язык программирования
+        limit (int): максимальное количество репозиториев (до 1000)
+        min_stars (int): минимальное количество stars
+    Returns:
+        list[dict] | None: список найденных репозиториев или None при ошибке
+    """
     pages = math.ceil(limit / PER_PAGE)
-    all_repos = []
-
     async with httpx.AsyncClient() as client:
-        for page in range(1, pages + 1):
-            search_parts = [query]
-            if language:
-                search_parts.append(f"language:{language}")
-            if min_stars > 0:
-                search_parts.append(f"stars:>={min_stars}")
-            search_query = " ".join(search_parts)
-            params = {
-                "q": search_query,
-                "sort": "stars",
-                "order": "desc",
-                "per_page": PER_PAGE,
-                "page": page,
-            }
-            try:
-                headers = {"Accept": "application/vnd.github+json"}
-                response = await client.get(
-                    GITHUB_SEARCH_API,
-                    params=params,
-                    headers=headers,
-                    timeout=15.0,
-                )
-            except httpx.RequestError:
-                return None
+        tasks = [
+            fetch_page(
+                client=client,
+                query=query,
+                language=language,
+                min_stars=min_stars,
+                page=page,
+            )
+            for page in range(1, pages + 1)
+        ]
 
-            if response.status_code != 200:
-                return None
-            data = response.json()
-            repos = data.get("items", [])
-            all_repos.extend(repos)
+        try:
+            results = await asyncio.gather(*tasks)
+        except httpx.RequestError:
+            return None
 
-    return data.get("items", [])
+        all_repos = []
+        for repos in results:
+            if repos:
+                all_repos.extend(repos)
+
+        return all_repos[:limit]

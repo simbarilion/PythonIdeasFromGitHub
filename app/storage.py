@@ -4,7 +4,15 @@ import json
 from app.core.config import DATA_DIR
 
 
-def save_to_json(data: dict, query: str):
+def save_to_json(data: dict, query: str) -> None:
+    """
+    Сохраняет результат поиска репозиториев в JSON файл.
+    Args:
+        data (dict): результат обработки репозиториев
+        query (str): поисковый запрос (используется в имени файла)
+    Returns:
+        None
+    """
     path = DATA_DIR / f"{query}.json"
 
     with open(path, "w", encoding="utf-8") as file:
@@ -16,7 +24,20 @@ def save_to_json(data: dict, query: str):
         )
 
 
-def save_to_csv(data: dict, query: str):
+def save_to_csv(data: dict, query: str) -> None:
+    """
+    Сохраняет список репозиториев в CSV файл.
+    Формат:
+    - name
+    - owner
+    - stars
+    - url
+    Args:
+        data (dict): результат обработки репозиториев
+        query (str): поисковый запрос (для имени файла)
+    Returns:
+        None
+    """
     path = DATA_DIR / f"{query}.csv"
 
     with open(path, "w", newline="", encoding="utf-8") as file:
