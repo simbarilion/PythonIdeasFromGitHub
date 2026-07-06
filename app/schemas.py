@@ -5,6 +5,7 @@ class RepositorySchema(BaseModel):
     name: str
     owner: str
     stars: int
+    forks: int
     url: str
 
 

@@ -32,6 +32,7 @@ def save_to_csv(data: dict, query: str) -> None:
     - name
     - owner
     - stars
+    - forks
     - url
     Args:
         data (dict): результат обработки репозиториев
@@ -49,6 +50,7 @@ def save_to_csv(data: dict, query: str) -> None:
                 "Repository",
                 "Owner",
                 "Stars",
+                "Forks",
                 "URL",
             ]
         )
@@ -58,6 +60,7 @@ def save_to_csv(data: dict, query: str) -> None:
                     repo["name"],
                     repo["owner"],
                     repo["stars"],
+                    repo["forks"],
                     repo["url"],
                 ]
             )

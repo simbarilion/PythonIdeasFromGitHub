@@ -1,0 +1,359 @@
+{
+    "query": "django",
+    "repos_count": 50,
+    "total_stars": 570602,
+    "average_stars": 11412.04,
+    "top_repo": "django",
+    "repos": [
+        {
+            "name": "django",
+            "owner": "django",
+            "stars": 88026,
+            "forks": 34019,
+            "url": "https://github.com/django/django"
+        },
+        {
+            "name": "sentry",
+            "owner": "getsentry",
+            "stars": 44238,
+            "forks": 4737,
+            "url": "https://github.com/getsentry/sentry"
+        },
+        {
+            "name": "paperless-ngx",
+            "owner": "paperless-ngx",
+            "stars": 42781,
+            "forks": 2857,
+            "url": "https://github.com/paperless-ngx/paperless-ngx"
+        },
+        {
+            "name": "jumpserver",
+            "owner": "jumpserver",
+            "stars": 31052,
+            "forks": 5714,
+            "url": "https://github.com/jumpserver/jumpserver"
+        },
+        {
+            "name": "django-rest-framework",
+            "owner": "encode",
+            "stars": 30098,
+            "forks": 7074,
+            "url": "https://github.com/encode/django-rest-framework"
+        },
+        {
+            "name": "netbox",
+            "owner": "netbox-community",
+            "stars": 21031,
+            "forks": 3065,
+            "url": "https://github.com/netbox-community/netbox"
+        },
+        {
+            "name": "wagtail",
+            "owner": "wagtail",
+            "stars": 20386,
+            "forks": 4555,
+            "url": "https://github.com/wagtail/wagtail"
+        },
+        {
+            "name": "docs",
+            "owner": "suitenumerique",
+            "stars": 16641,
+            "forks": 599,
+            "url": "https://github.com/suitenumerique/docs"
+        },
+        {
+            "name": "awx",
+            "owner": "ansible",
+            "stars": 15477,
+            "forks": 3657,
+            "url": "https://github.com/ansible/awx"
+        },
+        {
+            "name": "cookiecutter-django",
+            "owner": "cookiecutter",
+            "stars": 13565,
+            "forks": 3064,
+            "url": "https://github.com/cookiecutter/cookiecutter-django"
+        },
+        {
+            "name": "Zappa",
+            "owner": "Miserlou",
+            "stars": 11836,
+            "forks": 1170,
+            "url": "https://github.com/Miserlou/Zappa"
+        },
+        {
+            "name": "awesome-django",
+            "owner": "wsvincent",
+            "stars": 11155,
+            "forks": 1464,
+            "url": "https://github.com/wsvincent/awesome-django"
+        },
+        {
+            "name": "django-cms",
+            "owner": "django-cms",
+            "stars": 10652,
+            "forks": 3201,
+            "url": "https://github.com/django-cms/django-cms"
+        },
+        {
+            "name": "django-allauth",
+            "owner": "pennersr",
+            "stars": 10347,
+            "forks": 3111,
+            "url": "https://github.com/pennersr/django-allauth"
+        },
+        {
+            "name": "healthchecks",
+            "owner": "healthchecks",
+            "stars": 10140,
+            "forks": 987,
+            "url": "https://github.com/healthchecks/healthchecks"
+        },
+        {
+            "name": "django-ninja",
+            "owner": "vitalik",
+            "stars": 9117,
+            "forks": 597,
+            "url": "https://github.com/vitalik/django-ninja"
+        },
+        {
+            "name": "django-debug-toolbar",
+            "owner": "django-commons",
+            "stars": 8375,
+            "forks": 1090,
+            "url": "https://github.com/django-commons/django-debug-toolbar"
+        },
+        {
+            "name": "librephotos",
+            "owner": "LibrePhotos",
+            "stars": 8001,
+            "forks": 380,
+            "url": "https://github.com/LibrePhotos/librephotos"
+        },
+        {
+            "name": "pyinstrument",
+            "owner": "joerick",
+            "stars": 7952,
+            "forks": 289,
+            "url": "https://github.com/joerick/pyinstrument"
+        },
+        {
+            "name": "DjangoBlog",
+            "owner": "liangliangyy",
+            "stars": 7403,
+            "forks": 2857,
+            "url": "https://github.com/liangliangyy/DjangoBlog"
+        },
+        {
+            "name": "InvenTree",
+            "owner": "inventree",
+            "stars": 7223,
+            "forks": 1442,
+            "url": "https://github.com/inventree/InvenTree"
+        },
+        {
+            "name": "django-extensions",
+            "owner": "django-extensions",
+            "stars": 6808,
+            "forks": 1173,
+            "url": "https://github.com/django-extensions/django-extensions"
+        },
+        {
+            "name": "django-oscar",
+            "owner": "django-oscar",
+            "stars": 6614,
+            "forks": 2305,
+            "url": "https://github.com/django-oscar/django-oscar"
+        },
+        {
+            "name": "OnlineJudge",
+            "owner": "QingdaoU",
+            "stars": 6536,
+            "forks": 1539,
+            "url": "https://github.com/QingdaoU/OnlineJudge"
+        },
+        {
+            "name": "wger",
+            "owner": "wger-project",
+            "stars": 6352,
+            "forks": 932,
+            "url": "https://github.com/wger-project/wger"
+        },
+        {
+            "name": "channels",
+            "owner": "django",
+            "stars": 6351,
+            "forks": 828,
+            "url": "https://github.com/django/channels"
+        },
+        {
+            "name": "Django-Styleguide",
+            "owner": "HackSoftware",
+            "stars": 6223,
+            "forks": 620,
+            "url": "https://github.com/HackSoftware/Django-Styleguide"
+        },
+        {
+            "name": "huey",
+            "owner": "coleifer",
+            "stars": 5985,
+            "forks": 396,
+            "url": "https://github.com/coleifer/huey"
+        },
+        {
+            "name": "weblate",
+            "owner": "WeblateOrg",
+            "stars": 5972,
+            "forks": 1299,
+            "url": "https://github.com/WeblateOrg/weblate"
+        },
+        {
+            "name": "django-cors-headers",
+            "owner": "adamchainz",
+            "stars": 5587,
+            "forks": 552,
+            "url": "https://github.com/adamchainz/django-cors-headers"
+        },
+        {
+            "name": "paperless-ng",
+            "owner": "jonaswinkler",
+            "stars": 5419,
+            "forks": 346,
+            "url": "https://github.com/jonaswinkler/paperless-ng"
+        },
+        {
+            "name": "authlib",
+            "owner": "authlib",
+            "stars": 5365,
+            "forks": 549,
+            "url": "https://github.com/authlib/authlib"
+        },
+        {
+            "name": "django-crispy-forms",
+            "owner": "django-crispy-forms",
+            "stars": 5163,
+            "forks": 730,
+            "url": "https://github.com/django-crispy-forms/django-crispy-forms"
+        },
+        {
+            "name": "django-silk",
+            "owner": "jazzband",
+            "stars": 4978,
+            "forks": 368,
+            "url": "https://github.com/jazzband/django-silk"
+        },
+        {
+            "name": "mezzanine",
+            "owner": "stephenmcd",
+            "stars": 4822,
+            "forks": 1605,
+            "url": "https://github.com/stephenmcd/mezzanine"
+        },
+        {
+            "name": "xadmin",
+            "owner": "sshwsfc",
+            "stars": 4754,
+            "forks": 1386,
+            "url": "https://github.com/sshwsfc/xadmin"
+        },
+        {
+            "name": "devpush",
+            "owner": "hunvreus",
+            "stars": 4717,
+            "forks": 179,
+            "url": "https://github.com/hunvreus/devpush"
+        },
+        {
+            "name": "strawberry",
+            "owner": "strawberry-graphql",
+            "stars": 4686,
+            "forks": 646,
+            "url": "https://github.com/strawberry-graphql/strawberry"
+        },
+        {
+            "name": "django-filter",
+            "owner": "carltongibson",
+            "stars": 4685,
+            "forks": 775,
+            "url": "https://github.com/carltongibson/django-filter"
+        },
+        {
+            "name": "graphene-django",
+            "owner": "graphql-python",
+            "stars": 4391,
+            "forks": 764,
+            "url": "https://github.com/graphql-python/graphene-django"
+        },
+        {
+            "name": "tacticalrmm",
+            "owner": "amidaware",
+            "stars": 4366,
+            "forks": 635,
+            "url": "https://github.com/amidaware/tacticalrmm"
+        },
+        {
+            "name": "djangorestframework-simplejwt",
+            "owner": "jazzband",
+            "stars": 4326,
+            "forks": 705,
+            "url": "https://github.com/jazzband/djangorestframework-simplejwt"
+        },
+        {
+            "name": "dynaconf",
+            "owner": "dynaconf",
+            "stars": 4313,
+            "forks": 330,
+            "url": "https://github.com/dynaconf/dynaconf"
+        },
+        {
+            "name": "django-tastypie",
+            "owner": "django-tastypie",
+            "stars": 3947,
+            "forks": 1156,
+            "url": "https://github.com/django-tastypie/django-tastypie"
+        },
+        {
+            "name": "django-guardian",
+            "owner": "django-guardian",
+            "stars": 3906,
+            "forks": 589,
+            "url": "https://github.com/django-guardian/django-guardian"
+        },
+        {
+            "name": "fastapi-admin",
+            "owner": "fastapi-admin",
+            "stars": 3802,
+            "forks": 463,
+            "url": "https://github.com/fastapi-admin/fastapi-admin"
+        },
+        {
+            "name": "simpleui",
+            "owner": "newpanjing",
+            "stars": 3802,
+            "forks": 710,
+            "url": "https://github.com/newpanjing/simpleui"
+        },
+        {
+            "name": "factory_boy",
+            "owner": "FactoryBoy",
+            "stars": 3800,
+            "forks": 418,
+            "url": "https://github.com/FactoryBoy/factory_boy"
+        },
+        {
+            "name": "django-haystack",
+            "owner": "django-haystack",
+            "stars": 3743,
+            "forks": 1311,
+            "url": "https://github.com/django-haystack/django-haystack"
+        },
+        {
+            "name": "Zappa",
+            "owner": "zappa",
+            "stars": 3693,
+            "forks": 389,
+            "url": "https://github.com/zappa/Zappa"
+        }
+    ]
+}

@@ -65,13 +65,14 @@ function fetchGitHubRepos() {
     sheet.clear();
 
     // Запись заголовков столбцов
-    sheet.appendRow(["Name", "Owner", "Stars", "URL"]);
+    sheet.appendRow(["Name", "Owner", "Stars", "Forks", "URL"]);
 
     /**
      * Запись данных в таблицу (берется только нужная информация): каждая строка = один репозиторий:
      * - Название репозитория (для идентификации проекта)
      * - Автор репозитория
      * - Количество звезд (популярность проекта в мире)
+     * - Количество форков (сколько раз проект был скопирован другими разработчиками)
      * - URL репозитория (для быстрого доступа к проекту на GitHub)
      */
     repos.forEach(repo => {
@@ -79,6 +80,7 @@ function fetchGitHubRepos() {
         repo.name,
         repo.owner,
         repo.stars,
+        repo.forks,
         repo.url
       ]);
     });

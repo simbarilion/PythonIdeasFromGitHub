@@ -22,6 +22,7 @@ def process_repositories(
             "name": repo["name"],
             "owner": repo["owner"]["login"],
             "stars": repo["stargazers_count"],
+            "forks": repo["forks_count"],
             "url": repo["html_url"],
         }
         for repo in repos
