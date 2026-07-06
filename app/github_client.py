@@ -1,12 +1,9 @@
 import asyncio
 import math
-import os
 
 import httpx
 
-from app.core.config import GITHUB_SEARCH_API, PER_PAGE
-
-TOKEN_FOR_GITHUB_API = os.getenv("TOKEN_FOR_GITHUB_API")
+from app.core.config import GITHUB_SEARCH_API, PER_PAGE, TOKEN_FOR_GITHUB_API
 
 
 async def fetch_page(
@@ -100,7 +97,7 @@ async def search_repositories(
 
         try:
             results = await asyncio.gather(*tasks)
-        except httpx.RequestError:
+        except (httpx.RequestError, httpx.HTTPStatusError):
             return None
 
         all_repos = []

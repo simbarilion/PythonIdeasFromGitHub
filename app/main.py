@@ -1,10 +1,11 @@
-from fastapi import FastAPI, HTTPException, Query
-from starlette import status
+from fastapi import FastAPI, HTTPException, Query, status
+from fastapi.middleware.cors import CORSMiddleware
 
 from app.core.config import (
     DEFAULT_LIMIT,
     DEFAULT_MIN_STARS,
     LOGS_LEVEL,
+    MAX_LIMIT,
 )
 from app.core.logging import setup_logger
 from app.github_client import search_repositories
@@ -30,6 +31,13 @@ app = FastAPI(
     Powered by FastAPI + httpx.
     """,
     version="1.0.0",
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 
@@ -68,30 +76,38 @@ async def search_projects(
     query: str = Query(
         ...,
         description="Ключевое слово для поиска репозиториев",
-        examples="fastapi",
+        examples=[
+            "fastapi",
+        ],
     ),
     language: str | None = Query(
         None,
         description="Язык программирования",
-        examples="python",
+        examples=[
+            "python",
+        ],
     ),
     limit: int = Query(
         DEFAULT_LIMIT,
-        le=1000,
+        le=MAX_LIMIT,
         description="Количество репозиториев",
-        examples=200,
+        examples=[
+            200,
+        ],
     ),
     min_stars: int = Query(
         DEFAULT_MIN_STARS,
         description="Минимальное количество stars",
-        examples=500,
+        examples=[
+            500,
+        ],
     ),
-) -> dict[str, SearchResponseSchema]:
+) -> dict:
     """
     API endpoint для поиска GitHub репозиториев.
     Query params:
         query (str): ключевое слово поиска
-        language (str): язык программирования (по умолчанию python)
+        language (str | None): язык программирования (по умолчанию python)
         limit (int): максимальное количество результатов (до 1000)
         min_stars (int): минимальное количество stars
     Returns:

@@ -1,6 +1,9 @@
+from typing import Any
+
+
 def process_repositories(
     query: str,
-    repos: list,
+    repos: list[dict[str, Any]],
 ) -> dict:
     """
     Обрабатывает список GitHub репозиториев и вычисляет агрегированные метрики.
@@ -25,7 +28,7 @@ def process_repositories(
     ]
     total_stars = sum(repo["stargazers_count"] for repo in repos)
     average_stars = total_stars / len(processed) if processed else 0
-    top_repo = processed[0]["name"] if processed else None
+    top_repo = max(processed, key=lambda x: x["stars"])["name"] if processed else None
     return {
         "query": query,
         "repos_count": len(processed),
