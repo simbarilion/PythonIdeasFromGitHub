@@ -23,7 +23,7 @@ function fetchGitHubRepos() {
    */
   const searchQuery = `${query} language:${language}`;
 
-  const baseUrl = https://farm-contrast-after-comics.trycloudflare.com/docs
+  const baseUrl = "https://farm-contrast-after-comics.trycloudflare.com/search";
 
   const params = {
     query: query,
@@ -65,7 +65,7 @@ function fetchGitHubRepos() {
     sheet.clear();
 
     // Запись заголовков столбцов
-    sheet.appendRow(["Name", "Stars", "Forks", "URL"]);
+    sheet.appendRow(["Name", "Owner", "Stars", "URL"]);
 
     /**
      * Запись данных в таблицу (берется только нужная информация): каждая строка = один репозиторий:

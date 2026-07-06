@@ -1,25 +1,32 @@
-# 🔍 GitHub Repository Search API
+# 🔍 GitHub Repository Search System
 
-Асинхронный API на FastAPI для поиска популярных GitHub репозиториев с фильтрацией и аналитикой.
-Может быть использован для поиска интересных идей и новой информации для Python проектов.
+Система для поиска популярных GitHub-репозиториев с аналитикой и интеграцией Google Sheets.
 
 ---
 
 ## 🚀 Возможности
 
-- Поиск репозиториев через GitHub Search API
-- Фильтрация по:
-  - языку программирования
-  - минимальному количеству stars
-- Пагинация: до 100 результатов на странице, максимум до 1000 результатов всего
-- Асинхронные запросы (httpx + asyncio.gather)
-- Агрегация данных:
+**FastAPI backend**
+* Поиск GitHub репозиториев через GitHub Search API
+* Фильтрация по языку программирования
+* Фильтрация по минимальному количеству stars 
+* Пагинация: до 100 результатов на странице, максимум до 1000 результатов всего
+* Асинхронные запросы (httpx + asyncio.gather)
+* Агрегация данных:
   - total stars
-  - average stars
+  - average stars 
   - top repository
-- Экспорт результатов:
-  - JSON
-  - CSV
+* Экспорт результатов в JSON / CSV
+
+**Google Sheets интеграция**
+* Кнопка меню: GitHub Loader → Load repos
+* Автоматическая загрузка данных в таблицу
+* Обновление данных по запросу
+* Обработка ошибок API
+
+**Cloudflare Tunnel**
+* Используется для публичного HTTPS доступа к локальному FastAPI через туннель
+* Не требует деплоя сервера
 
 ---
 
@@ -42,11 +49,12 @@
   "repos": [...]
 }
 ```
+
 ---
 
 ## ⚙️ Запуск проекта
 
-### Запуск через Docker
+### Запуск через Docker (используется для локального backend)
 
 1. Создать .env (опционально):
 
@@ -64,17 +72,54 @@ docker-compose up
 
 http://localhost:8000/docs
 
-### Локальный запуск
-```
-pip install -r requirements.txt
-
-uvicorn app.main:app --reload
-```
 
 ### GitHub Token (опционально)
 
 - Используется для увеличения лимитов API.
 - Не влияет на SSH и git-ключи.
+
+
+### Запуск проекта через Cloudflare Tunnel
+```
+pip install -r requirements.txt
+
+uvicorn app.main:app --reload
+
+cloudflared tunnel --url http://localhost:8000
+
+```
+
+---
+
+## Google Sheets интеграция (Apps Script)
+
+### Описание
+
+* Проект интегрирован с Google Sheets через Google Apps Script. 
+* При открытии таблицы автоматически создаётся меню:
+  - GitHub Loader → Load repos
+  - Apps Script выполняет HTTP запрос к FastAPI backend 
+  - Получает JSON с репозиториями 
+  - Записывает данные в Google Sheets 
+  - Обновляет таблицу по запросу пользователя
+
+### Запуск Google Sheets
+
+1. Открыть таблицу:
+
+https://docs.google.com/spreadsheets/d/1_VuLP7iiecNzHJGHIw6kwYqvJLfPjoeBKRvIFr7fE8c/edit?usp=sharing
+
+2. Перейти:
+
+```angular2html
+Extensions → Apps Script
+```
+
+3. Для запуска скрипта использовать меню:
+
+```angular2html
+GitHub Loader → Load repos
+```
 
 ---
 
@@ -89,7 +134,9 @@ uvicorn app.main:app --reload
      ├── core
      ├──── config.py
      ├──── logging.py      # настройки логирования
-    data                   # файлы с данными
+    google_sheets/         
+     ├── Code.gs           # Google App Script
+    data                   # файлы с данными (JSON, CSV)
      ├
     logs
      ├
@@ -109,7 +156,7 @@ uvicorn app.main:app --reload
 
 ## Дополнительно
 
-- Документация API: используется `drf-spectacular`:
+- Документация API: используется `FastAPI automatic OpenAPI`:
   - автоматическая генерация OpenAPI схемы,
   - Swagger UI для тестирования API.
 - Конфигурация через переменные окружения.
