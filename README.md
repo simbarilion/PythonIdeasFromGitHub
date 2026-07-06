@@ -131,7 +131,7 @@ https://docs.google.com/spreadsheets/d/1_VuLP7iiecNzHJGHIw6kwYqvJLfPjoeBKRvIFr7f
 2. Перейти:
 
 ```angular2html
-Extensions → Apps Script
+Лист DATA → Меню Extensions → Apps Script
 ```
 
 3. Для запуска скрипта использовать меню:
