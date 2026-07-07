@@ -105,6 +105,9 @@ cloudflared tunnel --url http://localhost:8000
 * Проект интегрирован с Google Sheets через Google Apps Script. 
 * При открытии таблицы автоматически создаётся меню:
   - GitHub Loader → Load repos;
+  - 2 режима загрузки данных:
+    - OPEN DASHBOARD - с выбором параметров поиска,
+    - QUICK LOAD - быстрая загрузка с параметрами по умолчанию;
   - Apps Script выполняет HTTP запрос к FastAPI backend;
   - Получает JSON с репозиториями;
   - Записывает данные в Google Sheets;
