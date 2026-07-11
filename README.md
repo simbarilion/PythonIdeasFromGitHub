@@ -195,8 +195,6 @@ GitHub Loader → Load repos
 
 ## Автор
 
-Разработано в рамках тестового задания.
-
 Надежда Попова
 
 Python Developer
